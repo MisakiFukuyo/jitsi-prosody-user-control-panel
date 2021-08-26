@@ -1,6 +1,6 @@
 # Jitsi Prosody User Control Panel
 
-
+![Screenshot](screenshot.png)
 
 ## What's this?
 
