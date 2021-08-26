@@ -5,7 +5,7 @@ services:
     ports:
       - 58888:3000
     environment:
-      - TARGET_CONTAINER_NAME: "jitsi202107_prosody_1"
+      - TARGET_CONTAINER_NAME: "jitsi_prosody_1"
     volumes:
       - ./:/ctlpanel
       - /var/run/docker.sock:/var/run/docker.sock
