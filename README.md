@@ -14,7 +14,7 @@ This product is solve above problem provide Web user interface for Jitsi account
 
 ## Install
 
-Note: Now, my product is supported only environment of Jitsi on Docker, here: https://github.com/jitsi/docker-jitsi-meet .
+Note: Now, this product is supported only environment of Jitsi on Docker, here: https://github.com/jitsi/docker-jitsi-meet .
 
 ### 1. Change Group ID in Dockerfile
 
@@ -53,3 +53,9 @@ Place ctlpanel directory into your docker-jitsi-meet directory.
 And append partial of docker-compose.sample.yml to docker-compose.yml .
 
 Finally, docker-compose down, docker-compose up and access http://server-host-or-ip:58888/, you got control panel.
+
+### 4. (Optional)Setup basic authentication
+
+This product is not protected by password or anything.
+
+I recommend to setup authentication by reverse proxy or network restriction.
